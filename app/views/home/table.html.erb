@@ -1,0 +1,208 @@
+<style type="text/css">
+  .Addbtn{
+  background-color: blue;
+  color: #FFFFFF;
+  font-weight: 600;
+  border-radius: 3px;
+  text-align: right;
+}
+.Addbtn:hover{
+  color: #FFFFFF;
+}
+.ibox-title{
+  padding: 15px 15px 15px 15px;
+}
+.ibox-content{
+  margin-bottom: 70px;
+  background-color:white;
+}
+.lightcolor{
+  color: #676A6C;
+}
+table th{
+ font-weight: 500;
+ text-align: center;
+}
+td{
+  text-align: center;
+}
+button:focus{
+  outline: none;
+  box-shadow: none;
+}
+.newaddbtn{
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #F1F1F1;
+  min-width: 80px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.dropdown-content a {
+  color: black;
+  font-size: 14px;
+  padding: 7px 16px;
+  text-decoration: none;
+  display: block;
+}
+.dropdown-content a:hover {
+  background-color: #F79E20;
+  color: #FFFFFF;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+  right: 21px;
+  top: 2px;
+}
+.dropdown:hover .dropbtn {background-color: #3E8E41;}
+/*.table-responsive{
+  padding-bottom: 90px;
+  }*/
+  .label-danger{
+    padding: 4px 7px;
+  }
+  .label-warning{
+    padding: 4px 7px;
+  }
+  .nodata{
+    background-color: #E6E9FD;
+    border: 1px solid #2D257D;
+    color: #2D257D;
+    border-color: #2D257D;
+    border-radius: 3px;
+  }
+  .table-responsive{
+    padding-bottom: 85px;
+    width: 100%;
+    overflow: auto;
+    white-space: nowrap;
+  }
+   .row{
+  margin-left:5px;
+  margin-right:5px;
+  border-radius:17px;
+}
+.wrapper1{
+  margin-top:25px;
+}
+element.style {
+    margin-top: 100px;
+    background-color: #2E8B57;
+}
+ table th{
+ font-weight: 700;
+ text-align: center;
+ font-size:15px;
+}
+     .row{
+    margin-left:5px;
+    margin-right:5px;
+    border-radius:6px;
+  }
+  .wrapper1{
+    margin-top:25px;
+  }
+ 
+   .w-75 {
+      width: 35% !important;
+}
+
+
+.pull-right {
+    float: right;
+    margin-left: 180px;
+}
+#table{
+  background-color: #20B2AA;
+}
+  #map {
+        height: 10%;
+      }
+      #play-pause-button{
+  font-size: 38px;
+  cursor: pointer;
+  margin-left: 293px;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: 2px;
+}
+.wrapper1{
+  margin-top:25px;
+}
+element.style {
+    margin-top: 100px;
+    background-color: #2E8B57;
+}
+ table th{
+ font-weight: 700;
+ text-align: center;
+ font-size:15px;
+}
+.pull-right {
+    float: right;
+    margin-left: 180px;
+}
+
+
+
+</style>
+
+<div class="row wrapper border-bottom white-bg page-heading mx-0">
+   <div class="col-lg-7 col-md-6">
+      <h2 style="font-size:25px;">User Management</h2>
+   </div>
+   <div class="col-md-10 pull-right" style="margin-top:30px;">
+      <a href="<%#= admin_user_list_path(format: "xlsx")%>"class="btn btn-warning  pull-right" style="margin-top: -6%;background-color:#2E8B57;">Download csv
+      <i class="fa fa-cloud-download"></i>
+      </a>
+   </div>
+</div>
+<div class="row">
+  <div class="col-lg-12">
+    <div class="ibox ">
+      <div class="ibox-content table-responsive" >
+        <table class="table table-hover no-margins">
+          <thead>
+            <tr>
+              <th scope="col">#</th>
+              <th scope="col">First</th>
+              <th scope="col">Last</th>
+              <th scope="col">Handle</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">1</th>
+              <td>Mark</td>
+              <td>Otto</td>
+              <td>@mdo</td>
+            </tr>
+            <tr>
+              <th scope="row">2</th>
+              <td>Jacob</td>
+              <td>Thornton</td>
+              <td>@fat</td>
+            </tr>
+            <tr>
+              <th scope="row">3</th>
+              <td>Larry</td>
+              <td>the Bird</td>
+              <td>@twitter</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>
